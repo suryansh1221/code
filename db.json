@@ -1,0 +1,19 @@
+{
+  records: [{
+  name: 'john',
+  role: 'dev',
+  access: 'dev',
+    children: {
+      name: 'doe',
+      role: 'dev',
+      access: 'dev',
+    },
+  {
+  name: 'sean',
+  role: 'dev',
+  access: 'admin'},
+  {
+  name: 'paul',
+  role: 'dev',
+  access: 'dev'}],
+}
